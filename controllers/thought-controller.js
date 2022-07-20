@@ -102,7 +102,7 @@ deleteReaction({ params }, res) {
       .then(dbThoughtData => res.json(dbThoughtData))
       .catch(err => res.json(err));
   },
-
 };
+
 
 module.exports = thoughtController;
